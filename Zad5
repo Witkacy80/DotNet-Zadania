@@ -1,0 +1,49 @@
+using System;
+
+namespace ZadDomowe1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Podaj swoje imię i nazwisko");
+
+            string nameSurname = Console.ReadLine();
+
+            Console.WriteLine("Podaj swój numer telefonu");
+
+            string phoneNumber = Console.ReadLine();
+
+            Console.WriteLine("Podaj swój adres email");
+
+            string emailAddress = Console.ReadLine();
+
+            Console.WriteLine("Podaj swój wzrost");
+
+            string heigh = Console.ReadLine();
+
+            Console.WriteLine("Podaj swoją wagę");
+
+            string weight = Console.ReadLine();
+
+            Console.WriteLine("Podaj swoją datę urodzenia");
+
+            string dateOfBirth = Console.ReadLine();
+
+            Console.WriteLine("Podaj miejsce urodzenia");
+
+            string placeOfBirth = Console.ReadLine();
+
+            Console.WriteLine("Podaj nazwisko panieńskie matki");
+
+            string maidenName = Console.ReadLine();
+
+            double.Parse(phoneNumber);
+            double.Parse(heigh);
+            double.Parse(weight);
+            DateTime.Parse(dateOfBirth);
+
+            
+        }
+    }
+}
