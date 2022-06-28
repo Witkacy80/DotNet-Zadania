@@ -1,0 +1,23 @@
+using System;
+
+namespace ZadDomowe1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int width = 15;
+            int heigh = 8;
+
+            double width1 = Math.Pow(width, 2);
+            double heigh1 = Math.Pow(heigh, 2);
+
+            double diagonal1 = Math.Sqrt(width1 + heigh1);
+
+            Console.WriteLine("Przekątna prostokąta o wymiarach " + width + " na " + heigh + " ma długość " + diagonal1); 
+
+
+        }
+    }
+}
