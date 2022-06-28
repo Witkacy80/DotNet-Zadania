@@ -1,0 +1,23 @@
+using System;
+
+namespace ZadDomowe1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            char letter1 = 'D';
+            char letter2 = 'S';
+            char letter3 = 'A';
+
+
+            Console.Write(letter3);
+            Console.Write(letter2);
+            Console.Write(letter1);
+
+
+
+        }
+    }
+}
