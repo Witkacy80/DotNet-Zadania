@@ -1,0 +1,24 @@
+using System;
+
+namespace ZadDomowe1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string name = "Tommy";
+            string surname = "Varcetti";
+            int age = 35;
+            char sex = 'M';
+            double PESEL = 12345678901;
+            double employeeID = 9934256213;
+
+            Console.WriteLine("Imię i nazwisko: " + name + " " + surname);
+            Console.WriteLine("Wiek: " + age);
+            Console.WriteLine("Płeć: " + sex);
+            Console.WriteLine("PESEL: " + PESEL);
+            Console.WriteLine("Numer Pracownika: " + employeeID);
+        }
+    }
+}
