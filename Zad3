@@ -1,17 +1,20 @@
-using System;
-
-namespace ZadDomowe1
-{
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Podaj szerokość prostokąta");
 
-            int width = 15;
-            int heigh = 8;
+            string width = Console.ReadLine();
+            double width0 = 0;
+            double.TryParse(width, out width0);
 
-            double width1 = Math.Pow(width, 2);
-            double heigh1 = Math.Pow(heigh, 2);
+            Console.WriteLine("Podaj wysokość prostokąta");
+            string heigh = Console.ReadLine();
+            double heigh0 = 0;
+            double.TryParse(heigh, out heigh0);
+
+            double width1 = Math.Pow(width0, 2);
+            double heigh1 = Math.Pow(heigh0, 2);
 
             double diagonal1 = Math.Sqrt(width1 + heigh1);
 
